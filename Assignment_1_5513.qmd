@@ -1,0 +1,37 @@
+---
+title: "Assignment_34795596"
+format: html
+author: Ruyu Li
+editor: visual
+---
+
+```{r setup}
+#| include: false
+#| message: false
+#| warning: false
+
+library(tidyverse)
+library(knitr)
+```
+
+#introduction
+
+As the Pokémon franchise has expanded across generations, each new wave of creatures has brought not only fresh designs, but also variations in combat ability. This dataset contains information about each Pokémon’s generation, type, and core battle stats such as attack and defense. In this report, we investigate whether Pokémon have become stronger over time by comparing their average combat attributes across generations and types. The findings may reflect shifts in game design priorities or balancing strategies throughout the series.
+
+#research question
+
+Have Pokémon become stronger over successive generations? This project explores whether Pokémon introduced in later generations exhibit higher combat attributes—such as attack and defense—compared to those from earlier generations.
+
+# Dataset introduction
+
+This dataset contains information about each Pokémon’s generation, type, and core battle stats such as attack and defense. The data comes from [TidyTuesday](https://github.com/rfordatascience/tidytuesday) and includes ___ variables, see___. The original data has been archived in the project repository and here is the location of the data.
+
+```{r}
+#| warning: false
+#| mmessage: false
+#| echo: false
+#| label: fig-bill
+#| fig-cap: "Bill length vs flipper length"
+ggplot(penguins, aes(x = flipper_length_mm, y = bill_length_mm)) +
+  geom_point()
+```
